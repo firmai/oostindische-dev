@@ -67,6 +67,7 @@
              loadTime = new Date().getTime();
              setLoadingText()
 
+             /*
              $if(prod)$
              if (!doNotTrack && gtag) {
                  gtag('event', 'show_comments', {
@@ -76,7 +77,7 @@
              $endif$
 
              window.gc_params = {
-                 graphcomment_id: 'blog-thjread',
+                 graphcomment_id: 'MY-GRAPHCOMMENT-ID',
 
                  // if your website has a fixed header, indicate it's height in pixels
                  fixed_header_height: 0,
@@ -88,7 +89,7 @@
                  gc.onload = hideCommentsButton;
                  gc.onerror = failedLoadingText;
                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-             })();
+             })();*/
          }
         </script>
     </section>

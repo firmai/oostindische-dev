@@ -1,3 +1,2 @@
 User-agent: *
 
-Sitemap: https://blog.thjread.com/sitemap.xml

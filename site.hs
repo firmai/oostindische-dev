@@ -131,7 +131,7 @@ main =
 --------------------------------------------------------------------------------
 
 root :: String
-root = "https://blog.thjread.com"
+root = "https://oostindische.com"
 
 customPandocCompiler :: Compiler (Item String)
 customPandocCompiler =
@@ -149,9 +149,9 @@ customPandocCompiler =
 
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
-    { feedTitle       = "Thomas Read's blog"
-    , feedDescription = "My personal blog - mostly maths and programming"
-    , feedAuthorName  = "Thomas Read"
-    , feedAuthorEmail = "thjread@gmail.com"
+    { feedTitle       = ""
+    , feedDescription = ""
+    , feedAuthorName  = ""
+    , feedAuthorEmail = ""
     , feedRoot        = root
     }
